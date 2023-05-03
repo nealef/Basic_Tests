@@ -2,7 +2,7 @@ using System;
 using System.Numerics;
 using System.Runtime.CompilerServices;
 
-namespace MeadowApp 
+namespace Basic_Tests 
 {
 	/*
 	 * Tests for the SIMD intrinsics in the System.Numerics.Vectors assembly.

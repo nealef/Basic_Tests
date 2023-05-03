@@ -5,31 +5,11 @@ using System.Threading.Tasks;
 
 #pragma warning disable 1998
 
-namespace MeadowApp
+namespace Basic_Tests
 { 
-    public class MeadowApp : App<F7FeatherV2>
+    public class Basic_Tests : App<F7FeatherV1>
     {
-        public override async Task Initialize()
-        {
-            
-        }
-
-        async Task WillSleep()
-        {
-
-        }
-
-        async Task OnWake()
-        {
-
-        }
-
-        public async override void OnReset()
-        {
-
-        }
-
-        public override async Task Run()
+        public override Task Run()
         {
             string[] args = { "--verbose" };
             TestDriver.RunTests (typeof (BasicTests), null);
@@ -48,11 +28,7 @@ namespace MeadowApp
             TestDriver.RunTests(typeof(DevirtualizationTests), null);
             // TestDriver.RunTests(typeof(BenchTests), args);
             Console.WriteLine("**** Tests Complete ****");
-        }
-
-        static void Main()
-        {
-
+	    return base.Run();
         }
     }
 }

@@ -1,6 +1,6 @@
 using System;
 
-namespace MeadowApp
+namespace Basic_Tests
 {
 
 	/*

@@ -7,7 +7,7 @@ using System.Threading;
 #pragma warning disable 0219
 #pragma warning disable 0649
 
-namespace MeadowApp
+namespace Basic_Tests
 {
 	class GCTests
 	{

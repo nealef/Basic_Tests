@@ -29,7 +29,7 @@ using System.Reflection;
 #pragma warning disable 0642
 #pragma warning disable 0162
 
-namespace MeadowApp
+namespace Basic_Tests
 { 
 	class BasicTests
 	{

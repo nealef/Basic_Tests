@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 #pragma warning disable 0169
 #pragma warning disable 0649
 
-namespace MeadowApp
+namespace Basic_Tests
 {
 	public struct FooG {
 		public int i, j, k, l, m, n;

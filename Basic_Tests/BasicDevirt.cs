@@ -25,7 +25,7 @@ using System.Reflection;
  * the IL code looks.
  */
 
-namespace MeadowApp
+namespace Basic_Tests
 {
 
 	delegate int IntNoArgs();

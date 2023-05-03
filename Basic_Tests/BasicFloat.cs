@@ -26,7 +26,7 @@ using System.Reflection;
 /* A comparison made to same variable. */
 #pragma warning disable 1718
 
-namespace MeadowApp
+namespace Basic_Tests
 {
 	class FloatTests
 	{

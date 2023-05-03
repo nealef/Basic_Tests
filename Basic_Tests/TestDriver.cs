@@ -2,7 +2,7 @@ using System;
 using System.Reflection;
 using System.Collections.Generic;
 
-namespace MeadowApp
+namespace Basic_Tests
 {
 	[AttributeUsageAttribute(AttributeTargets.All, Inherited = true, AllowMultiple = true)]
 	public class CategoryAttribute : Attribute

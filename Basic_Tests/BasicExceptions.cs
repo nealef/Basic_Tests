@@ -31,7 +31,7 @@ using System.Runtime.CompilerServices;
 #pragma warning disable 0162
 #pragma warning disable 0649
 
-namespace MeadowApp 
+namespace Basic_Tests 
 {
 	class ExceptionTests
 	{

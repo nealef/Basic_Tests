@@ -25,7 +25,7 @@ using System.Reflection;
 
 #pragma warning disable 0649
 
-namespace MeadowApp 
+namespace Basic_Tests 
 {
 	class ArrayTests
 	{

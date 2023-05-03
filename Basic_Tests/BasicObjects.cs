@@ -34,7 +34,7 @@ using System.Runtime.CompilerServices;
 #pragma warning disable 0414
 #pragma warning disable 0649
 
-namespace MeadowApp
+namespace Basic_Tests
 {
 	struct Simple {
 		public int a;

@@ -15,7 +15,7 @@ using System.Threading;
 #pragma warning disable 1690
 
 
-namespace MeadowApp
+namespace Basic_Tests
 {
 	class GenericsTests
 	{
@@ -185,7 +185,7 @@ namespace MeadowApp
 
 		public static int test_0_constrained_vtype_box () {
 			GenericClass<TestStruct> t = new GenericClass<TestStruct> ();
-			return t.toString (new TestStruct ()) == "MeadowApp.GenericsTests+TestStruct" ? 0 : 1;
+			return t.toString (new TestStruct ()) == "Basic_Tests.GenericsTests+TestStruct" ? 0 : 1;
 		}
 
 		public static int test_0_constrained_vtype () {
