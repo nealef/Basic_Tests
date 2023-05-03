@@ -1,0 +1,6 @@
+Basic_Tests/bin
+Basic_Tests/obj
+Basic_Tests/References/*.dll
+Basic_Tests/References/*.pdb
+Basic_Tests/References/*.mpack
+.vs

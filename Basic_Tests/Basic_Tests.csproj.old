@@ -1,0 +1,111 @@
+<Project Sdk="Meadow.Sdk/1.1.0">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>App</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Microsoft.Bcl.AsyncInterfaces" />
+    <None Remove="System.Memory" />
+    <None Remove="Meadow" />
+    <None Remove="System.Numerics.Vectors" />
+    <None Remove="Microsoft.Extensions.FileProviders.Physical" />
+    <None Remove="Meadow.Contracts" />
+    <None Remove="Microsoft.Extensions.FileProviders.Abstractions" />
+    <None Remove="Microsoft.Extensions.Configuration.Json" />
+    <None Remove="System.Runtime.CompilerServices.Unsafe" />
+    <None Remove="System.Buffers" />
+    <None Remove="Microsoft.Extensions.Configuration.Abstractions" />
+    <None Remove="NetEscapades.Configuration.Yaml" />
+    <None Remove="System.Threading.Tasks.Extensions" />
+    <None Remove="Microsoft.Extensions.Primitives" />
+    <None Remove="System.Text.Json" />
+    <None Remove="System.Text.Encodings.Web" />
+    <None Remove="Microsoft.Extensions.FileSystemGlobbing" />
+    <None Remove="Microsoft.Extensions.Configuration" />
+    <None Remove="Microsoft.Extensions.Configuration.FileExtensions" />
+    <None Remove="Meadow.Logging" />
+    <None Remove="Meadow.F7" />
+    <None Remove="Meadow.Units" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>References\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>References\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="Meadow">
+      <HintPath>References\Meadow.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>References\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Physical">
+      <HintPath>References\Microsoft.Extensions.FileProviders.Physical.dll</HintPath>
+    </Reference>
+    <Reference Include="Meadow.Contracts">
+      <HintPath>References\Meadow.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions">
+      <HintPath>References\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Json">
+      <HintPath>References\Microsoft.Extensions.Configuration.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>References\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>References\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+      <HintPath>References\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="NetEscapades.Configuration.Yaml">
+      <HintPath>References\NetEscapades.Configuration.Yaml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>References\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives">
+      <HintPath>References\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>References\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>References\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileSystemGlobbing">
+      <HintPath>References\Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration">
+      <HintPath>References\Microsoft.Extensions.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.FileExtensions">
+      <HintPath>References\Microsoft.Extensions.Configuration.FileExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Meadow.Logging">
+      <HintPath>References\Meadow.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Meadow.F7">
+      <HintPath>References\Meadow.F7.dll</HintPath>
+    </Reference>
+    <Reference Include="Meadow.Units">
+      <HintPath>References\Meadow.Units.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="meadow.config.yaml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

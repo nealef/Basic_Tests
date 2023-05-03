@@ -1,0 +1,31 @@
+﻿#
+#   Name of the device.
+#
+Device:
+    #
+    #   Name of the device on the network.
+    #
+    Name: MeadowF7
+#
+# Control how mono will start and operate.
+#
+MonoControl:
+    #
+    #   Options to pass to Mono via the command line.
+    #
+    # Options: --jit --debug --trace=T:FloatTests
+    Options: --debug --jit
+    # Options: --debug
+#
+# Debug
+#
+Debug:
+    #
+    #   Redirect trace output to UART1 (COM1)
+    #
+    Uart1Use: trace
+    #
+    #   Set the level of information going to the trace output.
+    #   Valid values: 1-4
+    #
+    TraceLevel: 2
